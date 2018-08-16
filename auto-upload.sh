@@ -11,11 +11,8 @@ if [ $? -eq 0 ];then
     if [ ! -f update.log  ];then
         touch update.log
     fi
+    echo "commit date: `date`" >> update.log
     echo -e "last commit info:" >> update.log
-    echo `git log -2` >> update.log
-    git add *
-    git commit -m "auto-update"
-    echo -e "\nauto update:" >> update.log
     echo `git log -1` >> update.log
     git add *
     git commit -m "auto-update"
