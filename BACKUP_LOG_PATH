@@ -1,0 +1,10 @@
+日期    　  命令      对象　　　文件变化大小
+2018-08-17_15.57.03    ADD 2018-08-17_15.57.03.tar    /home/max/shell/   \033[32m 0 \033[0m
+2018-08-17_15.57.03    DELETE /home/max/package/_home_max_shell_/2018-08-17_15.51.38.tar    /home/max/shell/  \033[34m remove \033[0m
+2018-08-17_15.57.03    DELETE /home/max/package/_home_max_shell_/2018-08-17_15.51.57.tar    /home/max/shell/  \033[34m remove \033[0m
+2018-08-17_15.57.03    DELETE /home/max/package/_home_max_shell_/2018-08-17_15.51.01.tar    /home/max/shell/  \033[34m remove \033[0m
+2018-08-17_16.01.16    ADD 2018-08-17_16.01.16.tar    /home/max/shell/   \033[32m 0 \033[0m
+2018-08-17_16.01.16    DELETE /home/max/package/_home_max_shell_/2018-08-17_15.57.03.tar    /home/max/shell/  \033[34m remove \033[0m
+2018-08-17_16.01.16    ADD 2018-08-17_16.01.16.tar    /root/文档/   \033[32m 2160 \033[0m
+2018-08-17_16.02.03    ADD 2018-08-17_16.02.03.tar    /home/max/shell/   \033[32m 0 \033[0m
+2018-08-17_16.25.58    ADD 2018-08-17_16.25.58.tar    /home/max/shell/  [32m4320 K [0m
