@@ -146,6 +146,19 @@ shell数组可以定义１与５位置数组，其余不定义
 
 
 
+### 系统开机流程
+
+1. 开机
+2. 加载`BIOS`硬件信息，取得第一个可启动设备
+3. 启动第一个设备内`MBR`的`boot loader`    (mbr：主引导扇区；boot loader：初始化硬件设备的小程序，如GRUB)
+4. 根据boot loader加载`kernel`，kernel检测硬件并加载驱动(接手BIOS工作)
+5. boot loader加载`虚拟文件系统`，并加载`内核模块`(USB,RAID...)
+6. 启动首个进程`init`
+7. 终端`getty`
+8. 图形化界面`x window`
+
+
+
 #### 配置vim
 
 用`command W :w`可在`.vimrc`中为`:w`起别名
@@ -213,4 +226,3 @@ shell数组可以定义１与５位置数组，其余不定义
 
 
 
-邮件：脚本与脚本截图
